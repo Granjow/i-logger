@@ -1,0 +1,32 @@
+{
+  "name": "@geheimgang188/i-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepack": "rm -rf dist && npm run build"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "author": "Simon A. Eugster <simon.eu@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/Granjow/i-logger",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Granjow/i-logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Granjow/i-logger/issues"
+  },
+  "keywords": [
+    "logger",
+    "interface"
+  ],
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
