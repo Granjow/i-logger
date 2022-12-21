@@ -1,15 +1,15 @@
 export type LogLevel = 'trace' | 'debug' | 'info' | 'warn' | 'error' | 'child';
 
 export interface ILogger {
-    trace( ...args: any ): void;
+    trace( ...args: ( string | Object )[] ): void;
 
-    debug( ...args: any ): void;
+    debug( ...args: ( string | Object )[] ): void;
 
-    info( ...args: any ): void;
+    info( ...args: ( string | Object )[] ): void;
 
-    warn( ...args: any ): void;
+    warn( ...args: ( string | Object )[] ): void;
 
-    error( ...args: any ): void;
+    error( ...args: ( string | Object )[] ): void;
 
     child( bindings: Object ): ILogger;
 }
