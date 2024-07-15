@@ -1,7 +1,7 @@
 {
   "name": "@geheimgang188/i-logger",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.1.1",
+  "description": "Logging interface for pino",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -27,6 +27,6 @@
     "interface"
   ],
   "devDependencies": {
-    "typescript": "^4.7.4"
+    "typescript": "^5.5.3"
   }
 }

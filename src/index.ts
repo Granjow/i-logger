@@ -12,4 +12,6 @@ export interface ILogger {
     error( ...args: ( string | Object )[] ): void;
 
     child( bindings: Object ): ILogger;
+
+    level: LogLevel | string;
 }
